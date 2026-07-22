@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dutta Electronics</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#0a3d91;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#111;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+.hero{
+background:linear-gradient(90deg,#005bea,#00c6fb);
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.hero p{
+margin-top:15px;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:15px 35px;
+background:#ff9800;
+color:white;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:contain;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Dutta Electronics</h1>
+<p>Your Trusted Electronics Store</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Mobiles</a>
+<a href="#">TV</a>
+<a href="#">Laptops</a>
+<a href="#">AC</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+<h1>Welcome to Dutta Electronics</h1>
+<p>Best Deals on Mobiles, TVs, Laptops & Home Appliances</p>
+<a class="btn" href="#">Shop Now</a>
+</section>
+
+<section class="products">
+
+<div class="card">
+<h2>iPhone</h2>
+<p>Latest Apple Smartphones</p>
+</div>
+
+<div class="card">
+<h2>Samsung TV</h2>
+<p>Crystal Clear 4K TVs</p>
+</div>
+
+<div class="card">
+<h2>Laptops</h2>
+<p>HP • Dell • Lenovo</p>
+</div>
+
+<div class="card">
+<h2>Air Conditioners</h2>
+<p>LG • Daikin • Voltas</p>
+</div>
+
+</section>
+
+<footer>
+© 2026 Dutta Electronics. All Rights Reserved.
+</footer>
+
+</body>
+</html>
